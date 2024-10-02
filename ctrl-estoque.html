@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Controle de Estoque</title>
+</head>
+<body>
+    <header>
+        <div>
+    
+            <h1>Bem-vindo ao <em>Café na hora</em>!</h1>
+            <p>Sinta-se a vontade, você é o nosso cliente VIP</p><div>
+            <a href="index.html">Página Inicial</a>
+            <a href="ctrl-estoque.html">-  Controle de Estoque</a>
+            <a href="add-produto.html">-  Adicionar Produto</a>
+            <a href="funcionarios.html">-  Funcionários</a>
+        </div>
+        </div>
+     
+    </header>
+    <div class="ana">
+        <h2>Controle de Estoque</h2>
+
+    </div>
+    
+
+
+    
+
+    <table>
+        <tr>
+            <th>Foto</th>
+            <th>Descrição</th>
+            <th>Preço (R$)</th>
+            <th>Quantidade disponível</th>
+        </tr>
+
+        <tr>
+            <td><img src="./Imagens/pao-de-queijo.jpg" alt="Pão de queijo"/></td>
+            <td> Pão de queijo </td>
+            <td> - R$ 2,50 </td>
+            <td> 200 </td>
+        </tr>
+
+        <tr>
+            <td><img src="./Imagens/café expresso.jpg" alt="Café expresso"/></td>
+            <td>Café expresso</td>
+            <td> - R$3,00 </td>
+            <td> 90 </td>
+        </tr>
+
+        <tr>
+            <td><img src="./Imagens/chocolate quente.jpg" alt="Chocolate quente"/></td>
+            <td> Chocolate quente </td>
+            <td> - R$7,00 </td>
+            <td> 50 </td>
+        </tr>
+
+        <tr>
+            <td><img src="./Imagens/misto quente.jpg" alt="Misto quente"/></td>
+            <td> Misto quente </td>
+            <td>  - R$13,00 </td>
+            <td> 40 </td>
+        </tr>
+        
+        <!-- Crie mais uma linha desta tabela abaixo \/ -->
+        <td><img src="./Imagens/suco de melancia.jpg" alt="Suco de melancia"/></td>
+        <td> Suco de melancia </td>
+        <td>   - R$11,00 </td>
+        <td> 80 </td>
+    </tr>
+
+    </table>
+
+</body>
+</html>
+
+<style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+ 
+    }
+
+header{
+    background-color: black;
+    color:white;
+    justify-content: center;
+    text-align: center;
+    padding: 3.5vh 0; 
+    p{
+        padding: 16px 0;
+    }
+}
+header div a{
+        text-decoration: none;
+        color: white;
+    }
+    .ana{
+        background-color: rgb(136, 87, 8);
+        margin: 0%;
+        padding: 2vh 0;
+        justify-content: center;
+    text-align: center;
+    color: white;
+    }
+
+    table img{
+        width: 15vh;
+        height: 15vh;
+    }
+    td{
+        border: 3px solid  rgb(136, 87, 8);;
+        padding: 1vh;
+        text-align: center;
+        width: 40vh;
+    }
+
+</style>
